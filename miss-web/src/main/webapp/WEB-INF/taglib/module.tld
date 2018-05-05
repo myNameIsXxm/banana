@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GBK"?>
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>2.0</jsp-version>
+  <short-name>tag library descriptor of color</short-name>
+  <tag>
+    <name>button</name>
+    <tag-class>com.es.taglib.module.Button</tag-class>
+    <body-content>scriptless</body-content>
+    <attribute>
+        <name>style</name>
+        <required>false</required>
+    </attribute>
+    <attribute>
+        <name>click</name>
+        <required>false</required>
+    </attribute>
+  </tag>
+</taglib>

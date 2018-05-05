@@ -1,0 +1,30 @@
+@charset "utf-8";
+*{margin:0; padding:0;}
+body{  background:#A4DCFF url(../images/left_bg.jpg) repeat-x;}
+.clearfix:after{ display:block; visibility:hidden; clear:both; height:0; content:"";}
+.clearfix{zoom:1;}
+
+h1{ text-align: center; font-family: 'Microsoft YaHei'; font-size: 24px; color: #333; padding:20px 0; border-bottom: 1px solid #ddd;}
+h2{ text-align: center; font-family: 'Microsoft YaHei'; font-size: 18px; color: #333; padding:20px 0;}
+.iframe { text-align: center;}
+.iframe ul li{ display: inline-block; width: 250px; height: 600px; padding:20px 20px 20px 20px; margin:20px 10px; list-style: none; box-shadow: 0 0 3px 3px #e3e3e3; overflow: auto;}
+
+
+
+/*左侧导航菜单    home*/
+.sideMenu{ padding-top:30px;}
+.sideMenu h3{ height:32px; line-height:32px; padding-left:8px; background: url(../images/icon4.png) no-repeat 5px center; cursor:pointer; font-family: 'Microsoft YaHei'; font-size: 14px; color: #000; font-weight:bold; text-indent:30px; }
+.sideMenu h4{ height:32px; line-height:32px; padding-left:8px; background: url(../images/icon4.png) no-repeat 25px center; cursor:pointer; font-family: 'Microsoft YaHei'; font-size: 14px; color: #000; font-weight:bold; text-indent:50px; }
+.sideMenu ul .nLi.on .sub{ display: block;}
+.sideMenu ul ul .nLi.on .sub{ display: block;}
+.sideMenu ul .nLi .sub{ padding:3px 0; color:#999; display:none; }
+.sideMenu ul .nLi .sub li{ height: 30px; line-height: 30px; list-style: none; text-indent:30px;}
+.sideMenu ul .nLi .sub li a{ display: block; height: 30px; font-family: 'Microsoft YaHei'; font-size: 12px; color: #333; text-decoration: none; padding:0 25px; background:url(../images/icon2.jpg) no-repeat 25px center; text-indent:14px; }
+.sideMenu ul .nLi .sub li a:hover{ background:#D4E4F6 url(../images/icon2.jpg) no-repeat 25px center; text-indent:35px; line-height: 30px; color:#f00;text-indent:14px;}
+.sideMenu ul .nLi .sub ul li{ height: 30px; line-height: 30px; list-style: none; text-indent:40px;}
+.sideMenu ul .nLi .sub ul li a{ display: block; height: 30px; font-family: 'Microsoft YaHei'; font-size: 12px; color: #333; text-decoration: none; padding:0 25px; background:url(../images/icon2.jpg) no-repeat 25px center;}
+.sideMenu ul .nLi .sub ul li a:hover{ background:#D4E4F6 url(../images/icon2.jpg) no-repeat 30px center; color:#f00;}
+
+/*左侧导航菜单    end*/
+#current{  background:#D4E4F6 url(../images/icon2.jpg) no-repeat 30px center; color:#f00;}
+.zhuantai{ color:#f60;}

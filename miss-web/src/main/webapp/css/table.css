@@ -1,0 +1,33 @@
+
+input {
+	border: 0px solid #000;
+	text-align: left;
+	width: 93%;
+	align: left;
+}
+
+td {
+	text-align: center;
+	min-height: 25px;
+}
+
+th{
+	border-right: solid 1px #000;
+	border-bottom: 1px solid #000;
+	min-height: 25px;
+}
+table {
+	width: 100%;
+}
+
+.table {
+	brder-collase: collapse;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+}
+
+.table td {
+	border-right: solid 1px #000;
+	border-bottom: 1px solid #000;
+}
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>2.0</jsp-version>
+  <short-name>tag library descriptor of color</short-name>
+  <tag>
+    <name>red</name>
+    <tag-class>com.es.taglib.color.Red</tag-class>
+    <body-content>scriptless</body-content>
+  </tag>
+  <tag>
+    <name>blue</name>
+    <tag-class>com.es.taglib.color.Blue</tag-class>
+    <body-content>scriptless</body-content>
+  </tag>
+</taglib>

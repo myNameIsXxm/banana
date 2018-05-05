@@ -1,0 +1,207 @@
+HTML, body {
+	font-size: 14px;
+	font-family: 微软雅黑;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background: #f2f2f2;
+}
+
+input {
+	outline: none;
+}
+
+.clear-float:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.login_container {
+	width: 535px;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -151px;
+	margin-left: -267.5px;
+}
+
+.login_logo {
+	margin: auto;
+    background: url(../images/logo_js.png) no-repeat center;
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    top: 10%;
+}
+
+.login {
+	width: auto;
+	height: 100%;
+	background: url(../images/login_bg.png) center #000 no-repeat ;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/login_bg.png',sizingMethod='scale')
+}
+
+.login_main {
+	border-radius: 1px;
+	width: 515px;
+	height: 280px;
+	border: 1px solid #a1d0ef;
+	padding: 10px;
+	background: #8ecff2;
+	box-shadow: 0 0 1px 1px #a1d0ff;
+}
+
+.login_main_inner {
+	background: #fff;
+	width: 100%;
+	height: 100%;
+}
+
+.login_top {
+	width: 100%;
+	height: 48px;
+	background: #2194e5;
+}
+
+.login_top_right {
+	margin-left: 25px;
+	height: 48px;
+	width: 80px;
+	background: url(../images/login_tips.png) no-repeat;
+}
+
+.form-group {
+	width: 322px;
+	margin: 0 auto 22px auto;
+	position: relative;
+	left: -15px;
+}
+
+.form-group label {
+	width: 65px;
+	text-align: right;
+	line-height: 35px;
+	margin-right: 5px;
+}
+
+.form-group label, .form-group .input-text-box {
+	float: left;
+	height: 35px;
+}
+
+.form-group .input-text-box {
+	position: relative;
+	width: 250px;
+	border-radius: 1px;
+	border: 1px solid #88a7ad;
+}
+
+.form-group .input-text-box .ico {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 30px;
+	height: 35px;
+	display: block;
+}
+
+.form-group .input-text-box .ico-user {
+	background: url('../images/ico-loginuser.png') no-repeat center;
+}
+
+.form-group .input-text-box .ico-password {
+	background: url('../images/ico-password.png') no-repeat center;
+}
+
+.form-group .input-text-box .ico-success {
+	display: none;
+	background: url('../images/ico-success.png') no-repeat center;
+}
+
+.verify-tips {
+	position: absolute;
+	left: 0;
+	top: 37px;
+	line-height: 20px;
+	color: #e95550;
+	border: 1px solid #ffc0c2;
+	background: #ffebec;
+	width: 248px;
+	text-indent: 10px;
+}
+
+.form-group .input-text-box input {
+	text-indent: 8px;
+	width: 248px;
+	height: 33px;
+	line-height: 33px;
+	border: none;
+}
+
+.button-blue {
+	background: #2194e5 !important;
+	color: #FFF;
+	font-size: 14px;
+	font-weight: normal;
+	width: 100px;
+	height: 34px;
+	line-height: 34px;
+	border: none;
+	border-radius: 1px;
+	cursor: pointer;
+	font-family: "Microsoft YaHei";
+}
+
+.button-blue:hover {
+	color: #fff;
+	background-color: #2194e5;
+}
+
+.button-blue:active {
+	color: #036cd6;
+	background-color: #2798eb;
+	border-bottom: 2px solid #2194e5;
+}
+
+.mr-50 {
+	margin-left: 42px;
+	margin-right: 50px;
+}
+
+.login_form {
+	padding-top: 30px;
+}
+
+.button-group {
+	text-align: center;
+	margin-top: 40px;
+}
+/*输入框验证成功*/
+.input-success {
+	border: 1px solid #92c974 !important;
+}
+
+.input-success .ico-success {
+	display: block !important;
+}
+/*输入框验证失败*/
+.verify-tips {
+	display: none;
+}
+
+.input-error .verify-tips {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 37px;
+	line-height: 20px;
+	color: #e95550;
+	border: 1px solid #ffc0c2;
+	background: #ffebec;
+	width: 248px;
+	text-indent: 10px;
+}

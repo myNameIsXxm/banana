@@ -1,0 +1,28 @@
+/* CSS Document */
+div,ul,li,dl,dd,dt,h1,form{ padding:0; margin:0;}
+ul,ol,li{ list-style:none; list-style-type:none;}
+body{ margin:0px; padding:0px; font-size:12px; color: #444; line-height:24px; font-family:"微软雅黑"; background-color:#fff;}  
+img { border-style:none;}
+a{ color: #444; text-decoration: none;}
+a:hover { color:#f00; text-decoration: none; } 
+a.red{ color:#f00;}
+a.red:hover{ color:#009900;}
+
+.clear { clear: both; }
+
+.wrap{ margin:auto; }
+.loginbox{  background:url(../images/login_bg.jpg) no-repeat top center; margin:auto; min-height:690px; overflow:hidden;}
+.logininputbox{ width:400px; height:140px; margin:auto; margin-top:550px; }
+.logininputbox .left{ width:310px; margin-top:5px; float:left;}
+.logininputbox .right{ width:90px; float:left; text-align:center;}
+
+.logininput{ height:30px; line-height:30px; font-size:16px; color:#333;}
+.logininputtxt{ background:url(../images/input_bg.png) no-repeat ; width:208px; height:30px; text-indent:10px;}
+
+.logintxt{ text-align:center; font-size:14px; margin-top:20px; color:#333; height:28px; line-height:28px; float:left;}
+.logintxt span{ color:#D8001E;}
+.logintxt span a{ color:#D8001E;}
+.logints{ height:28px; line-height:28px; font-size:12px; color:#f00; width:200px; float:left; margin-top:20px;}
+
+.loginbottom{ height:30px; line-height:30px; color:#fff; font-size:14px; text-align:center;}
+

@@ -1,0 +1,9 @@
+﻿
+.page{ margin-top:10px; margin-bottom:10px; background:#fff; padding-bottom:10px;}
+.DoxunDataPages{margin-top:8px; font-family:Microsoft yahei; margin-bottom:10px; text-align:center;}
+.DoxunDataPages_Navigation_Defalut{padding:0px 5px; height:20px; line-height:20px; background-color:#f1f1f1;color:#333; text-align:center; margin:2px; border:solid 1px #ccc;}
+.DoxunDataPages_Navigation_Select{height:20px; line-height:20px; background-color:#ff6600;color:#ffffff;text-align:center; padding:0px 5px; margin:2px; border:solid 1px #ffffff; cursor:pointer;}
+
+.DoxunDataPages_Nembers_Defalut{ height:20px; line-height:20px; background-color:#e6e6e6;color:#000000; text-align:center; padding:0px 5px; margin:2px; border:solid 1px #ffffff;}
+.DoxunDataPages_Nembers_Select{ height:20px; line-height:20px; background-color:#ff6600;color:#ffffff; text-align:center; padding:0px 5px; margin:2px; border:solid 1px #ffffff; cursor:pointer;}
+.DoxunDataPages_Nembers_CurrPage{height:20px; line-height:20px; background-color:#ff6600;color:#ffffff;text-align:center; padding:0px 5px; margin:2px; border:solid 1px #ffffff; cursor:pointer;}
